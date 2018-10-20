@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  vars:
+      elasticsearch_internal_ip: < type your elastic search instance IP>
+      kibana_internal_ip: < type of your Kibana instance IP>
+      kibana_public_ip: <type the public IP of kiban or type to internal IP>
+  roles:
+    - kibana
